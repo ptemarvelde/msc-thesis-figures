@@ -1,0 +1,10 @@
+{
+    "emeraldwalk.runonsave": {
+        "commands": [
+            {
+                "match": "\\.drawio$",
+                "cmd": "echo 'converting ${file}.'; drawio --export -r -f pdf --crop ${file}"
+            }
+        ]
+    }
+}
