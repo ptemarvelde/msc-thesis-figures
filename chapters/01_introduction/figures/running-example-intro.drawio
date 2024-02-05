@@ -1,6 +1,6 @@
 <mxfile host="65bd71144e">
     <diagram name="Page-1" id="M6jngVwOxtqL-gZ75R2M">
-        <mxGraphModel dx="1866" dy="764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="1" shadow="0">
+        <mxGraphModel dx="689" dy="540" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="1" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -118,7 +118,7 @@
                         <mxRectangle width="75" height="20" as="alternateBounds"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="zcqD_Dq0G7eDdX4AI_ru-29" value="\(S\): Order" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;labelBackgroundColor=none;fontStyle=1;fontSize=12;fontFamily=palatina;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3Dpalatina;fontColor=#000000;html=1;" parent="1" vertex="1">
+                <mxCell id="zcqD_Dq0G7eDdX4AI_ru-29" value="\(S_1\): Order" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;labelBackgroundColor=none;fontStyle=1;fontSize=12;fontFamily=palatina;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3Dpalatina;fontColor=#000000;html=1;" parent="1" vertex="1">
                     <mxGeometry x="100.5" y="63.33" width="150" height="20" as="geometry"/>
                 </mxCell>
                 <mxCell id="zcqD_Dq0G7eDdX4AI_ru-30" value="" style="shape=table;startSize=0;container=1;collapsible=0;childLayout=tableLayout;labelBackgroundColor=none;fontSize=12;fontFamily=palatina;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3Dpalatina;fontColor=#000000;rounded=1;" parent="1" vertex="1">
@@ -262,7 +262,7 @@
                         <mxRectangle width="75" height="20" as="alternateBounds"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="zcqD_Dq0G7eDdX4AI_ru-47" value="\(R_1\) Lineitem" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;labelBackgroundColor=none;fontStyle=1;fontSize=12;fontFamily=palatina;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3Dpalatina;fontColor=#000000;" parent="1" vertex="1">
+                <mxCell id="zcqD_Dq0G7eDdX4AI_ru-47" value="\(S_2\) Lineitem" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;labelBackgroundColor=none;fontStyle=1;fontSize=12;fontFamily=palatina;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3Dpalatina;fontColor=#000000;" parent="1" vertex="1">
                     <mxGeometry x="397" y="47.99999999999999" width="130" height="24" as="geometry"/>
                 </mxCell>
                 <mxCell id="zcqD_Dq0G7eDdX4AI_ru-48" value="" style="shape=table;startSize=0;container=1;collapsible=0;childLayout=tableLayout;labelBackgroundColor=none;fontSize=12;fontFamily=palatina;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3Dpalatina;fontColor=#000000;strokeColor=default;rounded=1;" parent="1" vertex="1">
@@ -562,7 +562,7 @@
                         <mxRectangle width="110" height="18" as="alternateBounds"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="zcqD_Dq0G7eDdX4AI_ru-108" value="\(R_2\) Order returns" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;labelBackgroundColor=none;fontStyle=1;fontSize=12;fontFamily=palatina;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3Dpalatina;fontColor=#000000;" parent="1" vertex="1">
+                <mxCell id="zcqD_Dq0G7eDdX4AI_ru-108" value="\(S_3\) Order returns" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;labelBackgroundColor=none;fontStyle=1;fontSize=12;fontFamily=palatina;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3Dpalatina;fontColor=#000000;" parent="1" vertex="1">
                     <mxGeometry x="256" y="206" width="130" height="24" as="geometry"/>
                 </mxCell>
             </root>
