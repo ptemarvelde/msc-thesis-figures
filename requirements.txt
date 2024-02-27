@@ -3,3 +3,4 @@ pandas
 jupyter
 scipy
 loguru
+tabulate

@@ -1,0 +1,12 @@
+Experiment	Machine	Compute Unit	Architecture	Experiment type
+\texttt{GPU-P-1}	WIS ST4	GPU A40	Ampere	profile
+\texttt{GPU-P-2}	AWS P3.2xlarge	GPU V100	Volta	profile
+\texttt{GPU-P-3}	Personal Workstation	GPU 1660Ti	Turing	profile
+\texttt{GPU-T-1}	DAIC	GPU A40	Ampere	runtime
+\texttt{GPU-T-2}	DAIC	GPU V100	Volta	runtime
+\texttt{GPU-T-3}	DAIC	GPU P100	Pascal	runtime
+\texttt{GPU-T-4}	DAIC	GPU 2080Ti	Turing	runtime
+\texttt{GPU-T-5}	DAIC	GPU 1080Ti	Pascal	runtime
+\texttt{CPU-T-1}	WIS ST4	EPYC 7H12 CPU 8 cores	—	runtime
+\texttt{CPU-T-2}	WIS ST4	EPYC 7H12 CPU 16 cores	—	runtime
+\texttt{CPU-T-3}	WIS ST4	EPYC 7H12 CPU 32 cores	—	runtime
