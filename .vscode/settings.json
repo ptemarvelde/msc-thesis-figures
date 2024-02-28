@@ -6,5 +6,6 @@
                 "cmd": "echo 'converting ${file}.'; drawio --export -r -f pdf --crop ${file}"
             }
         ]
-    }
+    },
+    "jupyter.notebookFileRoot": "${workspaceFolder}"
 }

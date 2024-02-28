@@ -4,3 +4,5 @@ jupyter
 scipy
 loguru
 tabulate
+pyarrow
+seaborn
