@@ -6,3 +6,4 @@ loguru
 tabulate
 pyarrow
 seaborn
+adjustText
