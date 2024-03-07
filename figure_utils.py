@@ -1,5 +1,13 @@
+import socket
+hostname = socket.gethostname()
+
 LATEX_PROJECT_BASE_PATH = "/home/pepijn/Documents/uni/y5/thesis/writing/overleaf/"
 RESULT_DIR = "/home/pepijn/Documents/uni/y5/thesis/amalur/amalur-experiments/results/full_1"
+if hostname != "pepijn-desktop":
+    print("Running on laptop")
+    LATEX_PROJECT_BASE_PATH = "/mnt/c/Users/ptema/Documents/uni/y5/writing/overleaf/"
+    RESULT_DIR = "/mnt/c/Users/ptema/Documents/uni/y5/amalur-experiments/results/full_1"
+
 FIGURE_WIDTH_INCHES = 8.0
 MODEL_OPERATORS = ["KMeans", "Logistic Regression", "Linear Regression", "Gaussian"]
 
