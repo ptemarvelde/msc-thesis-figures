@@ -1,11 +1,10 @@
 LATEX_PROJECT_BASE_PATH = "/home/pepijn/Documents/uni/y5/thesis/writing/overleaf/"
-RUNTIME_DIR = "/home/pepijn/Documents/uni/y5/thesis/amalur/amalur-experiments/results/full_1/daic"
+RESULT_DIR = "/home/pepijn/Documents/uni/y5/thesis/amalur/amalur-experiments/results/full_1"
 FIGURE_WIDTH_INCHES = 8.0
 MODEL_OPERATORS = ["KMeans", "Logistic Regression", "Linear Regression", "Gaussian"]
 
 import sys
-# sys.path.append(f"{RUNTIME_DIR}/src")
-sys.path.append("/home/pepijn/Documents/uni/y5/thesis/amalur/amalur-experiments/results/full_1/src/")
+sys.path.append(f"{RESULT_DIR}/src/")
 
 from util import read_data_chars
 
