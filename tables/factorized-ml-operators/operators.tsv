@@ -1,0 +1,10 @@
+Operator	Example	Group	Operand	Output	Used in models
+Addition	T + x	Element-wise	scalar $x$	Normalized Matrix	
+Multiplication	T \times x	Element-wise	scalar $x$	Normalized Matrix	K-Means
+Division	T / x	Element-wise	scalar $x$	Normalized Matrix	
+Transposition	T^T	Element-wise		Normalized Matrix	LinReg, LogReg, K-Means, G-NMF
+Generic Scalar Function	f(T)	Element-wise	f	Normalized Matrix	K-Means ($exp$)
+Row Summation	rowSums(T)	Aggregation		Column Vector	K-Means
+Column Summation	colSums(T)	Aggregation		Row Vector	
+Left Matrix Multiplication	T Y	Multiplication	Matrix Y $(c_T \times r_Y)$	Matrix $(r_T \times c_X)$	LinReg, LogReg, K-Means
+Right Matrix Multiplication	Y T	Multiplication	Matrix Y $(c_X \times r_X)$	Matrix $(r_Y \times c_T)$	G-NMF
