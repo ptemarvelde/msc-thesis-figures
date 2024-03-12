@@ -1,5 +1,10 @@
 import socket
+import matplotlib.pyplot as plt
+plt.style.use('./std-colors.mplstyle')
+
 hostname = socket.gethostname()
+
+
 
 LATEX_PROJECT_BASE_PATH = "/home/pepijn/Documents/uni/y5/thesis/writing/overleaf/"
 RESULT_DIR = "/home/pepijn/Documents/uni/y5/thesis/amalur/amalur-experiments/results/full_1"
