@@ -1,6 +1,6 @@
 Experiment	Machine	Compute Unit	Architecture	Experiment type
 \texttt{GPU-P-1}	WIS ST4	GPU A40	Ampere	profile
-\texttt{GPU-P-2}	AWS P3.2xlarge	GPU V100	Volta	profile
+\texttt{GPU-P-2}	AWS G5.xlarge	GPU A10G	Ampere	profile
 \texttt{GPU-P-3}	Personal Workstation	GPU 1660Ti	Turing	profile
 \texttt{GPU-T-1}	DAIC	GPU A40	Ampere	runtime
 \texttt{GPU-T-2}	DAIC	GPU V100	Volta	runtime
