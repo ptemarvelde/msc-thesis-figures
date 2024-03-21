@@ -7,3 +7,4 @@ tabulate
 pyarrow
 seaborn
 adjustText
+scikit-learn

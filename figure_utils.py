@@ -17,9 +17,9 @@ FIGURE_WIDTH_INCHES = 8.0
 MODEL_OPERATORS = ["KMeans", "Logistic Regression", "Linear Regression", "Gaussian"]
 
 import sys
-sys.path.append(f"{RESULT_DIR}/src/")
+sys.path.append(f"{RESULT_DIR}/")
 
-from util import read_data_chars
+from src.util import read_data_chars
 
 def save_table(table, path):
     print(table)

@@ -1,0 +1,15 @@
+Dimension	Feature	Symbol	Formula	Type	Notes
+Model	Operator			Cat.	
+Hardware	Number of cores			Number	
+Data	Selectivity	\sigma	\frac{\sum_{k=1}^{n}r_{S_k}}{r_T}	Number	
+Data	Join type	j_t		Cat.	
+Data	Complexity 	O_{factorized}$, $O_{materialized}			
+Data	Complexity ratio		\frac{O_{materialized}}{ O_{factorized}}		
+Hardware	Compute type			Cat.	
+Data	Tuple ratio	\tau	frac{\sum_{k=1}^p d_k}{d_S}		
+Data	Feature ratio	\rho	\frac{n_S}{\sum_{k=1}^p n_k} 		
+Data	Dataset dimensions (rows, columns)	r_T, c_T			
+Data	Number of non-zero values	nnz(T)	nnz(S) = \sum_{k=1}^{n}nnz(S_k)		
+Data	Sparsity	e_T	\frac{nnz(T)}{r_T\times c_T}		
+Data	Number of base tables	n			
+Data	Number of base tables with $e\le 0.05$		|{S_k\in S|e_{S_k} <0.04}|		From \cite{MorpheusFI}
