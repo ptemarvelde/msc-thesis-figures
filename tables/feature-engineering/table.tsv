@@ -3,8 +3,10 @@ Model	Operator			C
 Hardware	\# Cores			N
 Data	Selectivity	\sigma	\frac{\sum_{k=1}^{n}r_{S_k}}{r_T}	N
 Data	Join type	j_t		C
-Data	Complexity 	O_M$, $O_F
-Data	Complexity ratio		\frac{O_M}{ O_F}
+Data \& Model	Complexity 	M_{FLOP}$, $F_{FLOP}			For each operator
+Data \& Model	Complexity ratio		\frac{FLOP_M}{FLOP_F}
+Data \& Model	Memory bytes sum	\text{bytes}_M$, $\text{bytes}F		N	For each operator
+Data \& Model	Memory ratio		\frac{\text{bytes}_M}{\text{bytes}_F}	N	For each operator
 Hardware	Compute type			C	CPU, GPU
 Data	Tuple ratio	\tau	\frac{\sum_{k=1}^p d_k}{d_S}
 Data	Feature ratio	\rho	\frac{n_S}{\sum_{k=1}^p n_k} 
@@ -24,3 +26,6 @@ Hardware	FLOPs
 Hardware	GPU memory bandwidth
 Hardware	GPU processing power (double precision)
 Hardware	Arithmetic intensity
+Dependent	Execution Time	\text{Time}_M$, $\text{Time}_F
+Dependent	Time saved		\text{Time}_M - \text{Time}_F
+Dependent	Performance ratio		\frac{\text{Time}_M}{\text{Time}_F}
